@@ -1,8 +1,7 @@
 from matplotlib import pyplot as plt
 from functools import partial
 from intro_hypothesis_testing import normal_cdf
-def sum_of_squares(v):
-    return sum(v_i ** 2 for v_i in v)
+
 
 def difference_quotient(f, x, h):
     return (f(x + h) - f(x)) / h
